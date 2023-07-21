@@ -1,0 +1,413 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+   font-family:'Belanosima', sans-serif;
+   margin:0;
+}
+
+h1{font-size: 3.2em;
+color: #EFF5F5;
+background-color: #00425A;
+border-radius: 5px;
+border: 10px solid #00425A;
+}
+
+h2{font-size: 2.5em;}
+h3{font-size: 1.5em;
+   color: #141515;
+}
+h4{font-size:1.5em}
+p{font-size: 1em;
+font-family: 'Poppins', sans-serif;}
+
+button{
+   font-size: 1.5em;
+   font-weight: bold;
+   color: #00425A;
+   padding: 6px 12px;
+   border-radius: 10px;
+   border: 2px solid #00425A;
+   box-shadow: 2px 2px 5px #00425A;
+   background-color: #EFF5F5;
+   cursor: pointer;
+}
+
+button:hover{
+   background-color: #c6f4f4 ;
+}
+
+.container{
+   max-width: 1400px;
+   margin: auto;
+}
+
+
+header {
+   background-color: #EFF5F5;
+}
+
+header .logo{
+ margin: 0;
+ padding: 25px 30px;
+ font-weight: bold;
+ color: #00425A;
+ font-size: 1.8em;
+
+}
+
+header .container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+header nav{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   padding-bottom: 25px;
+}
+
+header a{
+   padding: 5px 10px;
+   text-decoration: none;
+   font-weight: bold;
+   color: #1F8A70;
+}
+
+header a:hover{
+   color: #00425A;
+}
+
+#titulo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   height: 70vh;
+   background-image: url("/img/imagen-titulo.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+#titulo button {
+   font-size: 2em;
+}
+
+#quienes-somos .container{
+   text-align: center;
+   padding: 200px 12px;
+}
+
+#porque-elegirnos {
+   background-color: #00425A;
+   color: #EFF5F5;
+}
+#porque-elegirnos .container{
+   text-align: center;
+   padding: 200px 12px;
+   background-color: #00425A;
+   color: #EFF5F5;
+}
+
+
+#propuesta {
+   text-align: center;
+
+}
+
+#propuesta .container{
+   padding: 100px 0px;
+}
+
+#propuesta h2{
+   margin-top: 0;
+}
+
+#propuesta p{
+   display: none;
+}
+
+.cartas:first-child{
+   background-image: url(/img/educacion-tecno-y-digital.jpg);
+   background-position: center center;
+   background-size: cover;
+   padding: 50px;
+   margin: 20px;
+   border-radius: 15px;
+
+}
+
+.cartas:nth-child(2){
+   background-image: url(/img/ingles.jpg);
+   background-position: center center;
+   background-size: cover;
+   padding: 50px;
+   margin: 20px;
+   border-radius: 15px;
+}
+
+.cartas:nth-child(3){
+   background-image: url(/img/ciencia.jpg);
+   background-position: center center;
+   background-size: cover;
+   padding: 50px;
+   margin: 20px;
+   border-radius: 15px;
+}
+
+
+
+#noticias {
+   text-align: center;
+   background-color: #00425A;
+   color: #EFF5F5;
+
+}
+
+#noticias .container{
+   padding: 100px 0px;
+}
+
+#noticias h2{
+   margin-top: 0;
+}
+
+#noticias p{
+   display: none;
+}
+
+.carta:first-child{
+   background-image: url(/img/trayectoria.jpg);
+   background-position: center center;
+   background-size: cover;
+   padding: 50px;
+   margin: 20px;
+   border-radius: 15px;
+
+}
+
+.carta:nth-child(2){
+   background-image: url(/img/deporte-infantil-saludable.jpg);
+   background-position: center center;
+   background-size: cover;
+   padding: 50px;
+   margin: 20px;
+   border-radius: 15px;
+}
+
+.carta:nth-child(3){
+   background-image: url(/img/calendario.jpg);
+   background-position: center center;
+   background-size: cover;
+   padding: 50px;
+   margin: 20px;
+   border-radius: 15px;
+}
+
+
+footer {
+   background-color: #e6eeee;
+   display: flex;
+   justify-content: flex;
+   align-items: center
+}
+
+.iconos {
+   display: flex;
+   justify-content: space-between;
+   margin-right: 2rem;
+}
+
+
+
+
+@media (min-width: 720px) {
+   header{
+      position:fixed;
+      width: 100%;
+   }
+   header .container{
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   header nav{
+      flex-direction: row;
+      padding-bottom: 0;
+      padding-right: 20px;
+   }
+
+   #quienes-somos .container{
+      display: flex;
+      justify-content: center;
+   }
+
+   #quienes-somos .texto{
+      width: 60%;
+      text-align: justify;
+      padding: 0px 30px;
+      max-width: 600px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   #quienes-somos h2{
+      margin-top: 0px;
+   }
+   
+   #quienes-somos .img-container{
+      background-image: url(/img/untref.jpg);
+      background-size: cover;
+      height: 500px;
+      width: 100%;
+   }
+
+
+
+   #porque-elegirnos .container{
+      display: flex;
+      justify-content: center;
+   }
+
+   #porque-elegirnos .textoelegirnos{
+      width: 80%;
+      text-align: justify;
+      padding: 0px 20px;
+      margin-right: 40px;
+      max-width: 600px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   #porque-elegirnos h2{
+      margin-top: 0px;
+   }
+   
+   #porque-elegirnos .img-containerelegirnos{
+      background-image: url(/img/elegirnos.jpg);
+      background-size: cover;
+      height: 700px;
+      width: 100%;
+   }
+
+
+   #propuesta .programas{
+      display: flex;
+      justify-content: center;
+   }
+
+   #propuesta p{
+      display: block;
+      margin-bottom: 30px;
+      font-weight: bold;
+      
+   }
+
+   #propuesta h3{
+      margin-top: 0;
+      background-color: #EFF5F5;
+   }
+
+
+   #propuesta .cartas{
+      text-align: center;
+      background-size: 100% 80px;
+      background-repeat: no-repeat;
+      background-position-y: 0;
+      background-color: rgb(201, 238, 249);
+      box-shadow: 4px 4px 10px #00425A;
+   }
+
+   .cartas:first-child{
+      background-image: url(/img/educacion-tecno-y-digital2.jpg);
+      background-position: center center;
+      background-size: cover;
+      padding: 50px;
+      margin: 20px;
+      border-radius: 15px;
+   
+   }
+   
+   .cartas:nth-child(2){
+      background-image: url(/img/ingles2.jpg);
+      background-position: center center;
+      background-size: cover;
+      padding: 50px;
+      margin: 20px;
+      border-radius: 15px;
+   }
+   
+   .cartas:nth-child(3){
+      background-image: url(/img/ciencia2.jpg);
+      background-position: center center;
+      background-size: cover;
+      padding: 50px;
+      margin: 20px;
+      border-radius: 15px;
+   }
+   
+   #noticias .lasnoticias{
+      display: flex;
+      justify-content: center;
+   }
+
+   #noticias p{
+      display: block;
+      margin-bottom: 30px;
+      font-weight: bold;
+      color: #141515;
+      
+   }
+
+   #noticias h3{
+      margin-top: 0;
+      background-color: #EFF5F5;
+   }
+
+   #noticias .carta{
+      padding: 50px;
+      background-size: 100% 80px;
+      background-repeat: no-repeat;
+      background-position-y: 0;
+      background-color: rgb(201, 238, 249);
+      box-shadow: 4px 4px 10px #00425A;
+   }
+
+   .carta:first-child{
+      background-image: url(/img/trayectoria2.jpg);
+      background-position: center center;
+      background-size: cover;
+      padding: 50px;
+      margin: 20px;
+      border-radius: 15px;
+   
+   }
+   
+   .carta:nth-child(2){
+      background-image: url(/img/deporte-infantil-saludable2.jpg);
+      background-position: center center;
+      background-size: cover;
+      padding: 50px;
+      margin: 20px;
+      border-radius: 15px;
+   }
+   
+   .carta:nth-child(3){
+      background-image: url(/img/calendario2.jpg);
+      background-position: center center;
+      background-size: cover;
+      padding: 50px;
+      margin: 20px;
+      border-radius: 15px;
+   }
+
+
+   
+}
