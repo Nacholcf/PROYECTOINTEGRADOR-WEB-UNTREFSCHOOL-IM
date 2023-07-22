@@ -16,9 +16,11 @@ border: 10px solid #00425A;
 
 h2{font-size: 2.5em;}
 h3{font-size: 1.5em;
+   background-color: #EFF5F5;
    color: #141515;
 }
-h4{font-size:1.5em}
+h4{font-size:1.5em;
+   color: #141515;}
 p{font-size: 1em;
 font-family: 'Poppins', sans-serif;}
 
@@ -35,7 +37,7 @@ button{
 }
 
 button:hover{
-   background-color: #c6f4f4 ;
+   background-color: #d9f6f6 ;
 }
 
 .container{
@@ -211,16 +213,29 @@ header a:hover{
 
 
 footer {
-   background-color: #e6eeee;
+   background-color: #EFF5F5;
    display: flex;
    justify-content: flex;
    align-items: center
 }
 
-.iconos {
+footer .container {
    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+footer .iconos {
+   display: flex;
+   align-items: center;
    justify-content: space-between;
    margin-right: 2rem;
+   margin-left: 2rem;
+}
+
+footer a{ 
+   color: #00425A;
+   cursor: pointer;
 }
 
 
@@ -318,7 +333,7 @@ footer {
 
    #propuesta .cartas{
       text-align: center;
-      background-size: 100% 80px;
+      background-size: 100% 100px;
       background-repeat: no-repeat;
       background-position-y: 0;
       background-color: rgb(201, 238, 249);
@@ -332,7 +347,7 @@ footer {
       padding: 50px;
       margin: 20px;
       border-radius: 15px;
-   
+
    }
    
    .cartas:nth-child(2){
@@ -342,6 +357,7 @@ footer {
       padding: 50px;
       margin: 20px;
       border-radius: 15px;
+   
    }
    
    .cartas:nth-child(3){
@@ -351,6 +367,7 @@ footer {
       padding: 50px;
       margin: 20px;
       border-radius: 15px;
+
    }
    
    #noticias .lasnoticias{
@@ -373,7 +390,7 @@ footer {
 
    #noticias .carta{
       padding: 50px;
-      background-size: 100% 80px;
+      background-size: 100% 100px;
       background-repeat: no-repeat;
       background-position-y: 0;
       background-color: rgb(201, 238, 249);
@@ -407,7 +424,99 @@ footer {
       margin: 20px;
       border-radius: 15px;
    }
-
-
    
 }
+
+
+
+/* CSS CONTACTO */
+
+form {
+   max-width: 500px;
+   margin: 10px auto;
+   padding: 10px 20px;
+   border-radius: 8px;
+   margin-bottom: 30px;
+   color: #00425A;
+ }
+
+ 
+input[type="text"],
+ input[type="password"],
+ input[type="date"],
+ input[type="email"],
+ textarea,
+ select {
+   background: rgba(197, 29, 29, 0.1);
+   border: none;
+   font-size: 16px;
+   height: auto;
+   margin: 0;
+   outline: 0;
+   padding: 15px;
+   width: 100%;
+   background-color: #e8eeef;
+   color: #8a97a0;
+   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+   margin-bottom: 30px;
+ } 
+ 
+ select {
+   padding: 6px;
+   height: 32px;
+   border-radius: 2px;
+ }
+ 
+ button[type="submit"] {
+   padding: 19px 39px 18px 39px;
+   color: #FFF;
+   background-color: #4bc970;
+   font-size: 18px;
+   text-align: center;
+   font-style: normal;
+   border-radius: 5px;
+   width: 100%;
+   border: 1px solid #3ac162;
+   border-width: 1px 1px 3px;
+   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+   margin-bottom: 10px;
+ }
+ button[type="reset"] {
+   padding: 19px 39px 18px 39px;
+   color: #FFF;
+   background-color: #b23a48;
+   font-size: 18px;
+   text-align: center;
+   font-style: normal;
+   border-radius: 5px;
+   width: 100%;
+   border: 1px solid #b23a48;
+   border-width: 1px 1px 3px;
+   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+   margin-bottom: 10px;
+ }
+ 
+ fieldset {
+   margin-bottom: 30px;
+   border: double;
+   color: #00425A;
+ }
+ 
+ label {
+   display: block;
+   margin-bottom: 8px;
+ }
+ 
+ input[type="radio"]+label,
+ input[type="checkbox"]+label {
+   font-weight: 300;
+   display: inline-block;
+ }
+
+ @media screen and (min-width: 480px) {
+ 
+   form {
+     max-width: 480px;
+   }
+ 
+ }

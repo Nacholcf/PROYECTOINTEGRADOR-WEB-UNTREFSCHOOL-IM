@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <!-- G Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Nunito+Sans:ital@1&family=Roboto:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <!-- JS -->
+    <script src="./js/script.js"></script>
+    <title>UntrefSchool</title>
+</head>
+<body>
+    <form action="./resultado.html" method="post">
+        <h1>CONTACTO</h1>
+  
+        <form>
+        
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" >
+  
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" >
+  
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" >
+
+        <label for="nacimiento">Fecha de nacimiento</label>
+        <input type="date" name="nacimiento" id="nacimiento">
+
+        <label for="biografia">Mensaje</label>
+        <textarea name="biografia" id="biografia" cols="20" rows="5"></textarea>
+  
+
+
+      <fieldset>
+        <legend>Newsletter</legend>
+        <label for="noticias">Desea recibir noticias por correo?</label>
+        <input type="radio" name="newsletter" id="noticias" value="si enviar">
+        <label for="noticias">Si, me gustaria recibir noticias</label>
+        <br>
+        <input type="radio" input type="radio" name="newsletter" id="noticias" value="no enviar">
+        <label for="noticias">No enviarme noticias</label>
+
+      </fieldset>
+  
+        <button type="reset">Cancelar</button>
+        <button type="submit">Enviar</button>
+
+
+    </form>
+</body>
+</html>
