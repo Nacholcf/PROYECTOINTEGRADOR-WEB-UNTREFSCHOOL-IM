@@ -468,10 +468,11 @@ input[type="text"],
  }
  
  button[type="submit"] {
+   font-family:'Belanosima', sans-serif;
    padding: 19px 39px 18px 39px;
    color: #FFF;
    background-color: #067b28;
-   font-size: 18px;
+   font-size: 20px;
    text-align: center;
    font-style: normal;
    border-radius: 5px;
@@ -482,10 +483,11 @@ input[type="text"],
    margin-bottom: 10px;
  }
  button[type="reset"] {
+   font-family:'Belanosima', sans-serif;
    padding: 19px 39px 18px 39px;
    color: #FFF;
    background-color: #f14b4bdd;
-   font-size: 18px;
+   font-size: 20px;
    text-align: center;
    font-style: normal;
    border-radius: 5px;
