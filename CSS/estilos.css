@@ -470,13 +470,13 @@ input[type="text"],
  button[type="submit"] {
    padding: 19px 39px 18px 39px;
    color: #FFF;
-   background-color: #4bc970;
+   background-color: #067b28;
    font-size: 18px;
    text-align: center;
    font-style: normal;
    border-radius: 5px;
    width: 100%;
-   border: 1px solid #3ac162;
+   border: 1px solid #067b28;
    border-width: 1px 1px 3px;
    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
    margin-bottom: 10px;
@@ -484,13 +484,13 @@ input[type="text"],
  button[type="reset"] {
    padding: 19px 39px 18px 39px;
    color: #FFF;
-   background-color: #b23a48;
+   background-color: #f14b4bdd;
    font-size: 18px;
    text-align: center;
    font-style: normal;
    border-radius: 5px;
    width: 100%;
-   border: 1px solid #b23a48;
+   border: 1px solid #f14b4bdd;
    border-width: 1px 1px 3px;
    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
    margin-bottom: 10px;
